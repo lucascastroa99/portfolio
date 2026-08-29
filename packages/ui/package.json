@@ -1,0 +1,56 @@
+{
+  "name": "@repo/ui",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#components/*": "./src/components/*.tsx",
+    "#libraries/*": "./src/libraries/*.ts",
+    "#providers/*": "./src/providers/*.tsx"
+  },
+  "exports": {
+    "./base.css": "./src/styles/base.css",
+    "./globals.css": "./src/styles/globals.css",
+    "./shadcn/*": "./src/components/ui/*.tsx",
+    "./libraries/*": "./src/libraries/*.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./providers/*": "./src/providers/*.tsx"
+  },
+  "scripts": {
+    "biome:check": "biome check --fix --unsafe .",
+    "typescript:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@base-ui/react": "catalog:",
+    "@bprogress/react": "catalog:",
+    "@iconify-icon/react": "catalog:",
+    "@repo/assets": "workspace:*",
+    "@repo/i18n": "workspace:*",
+    "@repo/shared": "workspace:*",
+    "class-variance-authority": "catalog:",
+    "clsx": "catalog:",
+    "cmdk": "catalog:",
+    "embla-carousel-react": "catalog:",
+    "input-otp": "catalog:",
+    "lucide-react": "catalog:",
+    "radix-ui": "catalog:",
+    "react-day-picker": "catalog:",
+    "react-hook-form": "catalog:",
+    "react-resizable-panels": "catalog:",
+    "recharts": "catalog:",
+    "sonner": "catalog:",
+    "tailwind-merge": "catalog:",
+    "temporal-polyfill": "catalog:",
+    "vaul": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@repo/biome-config": "workspace:*",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:"
+  },
+  "peerDependencies": {
+    "@tanstack/react-router": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  }
+}
