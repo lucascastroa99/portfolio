@@ -1,0 +1,6 @@
+{
+  "name": "portfolio-web",
+  "main": "src/server.ts",
+  "compatibility_date": "2025-09-24",
+  "compatibility_flags": ["nodejs_compat"]
+}
