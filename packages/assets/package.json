@@ -1,0 +1,14 @@
+{
+  "name": "@repo/assets",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./images/*": "./images/*"
+  },
+  "scripts": {
+    "biome:check": "biome check --fix --unsafe ."
+  },
+  "devDependencies": {
+    "@repo/biome-config": "workspace:*"
+  }
+}
