@@ -1,0 +1,10 @@
+export const NAME_MAX_LENGTH = 255;
+export const NOTE_MAX_LENGTH = 2000;
+export const EMAIL_MAX_LENGTH = 255;
+export const PAGE_MIN = 1;
+export const LIST_LIMIT_MIN = 1;
+export const LIST_LIMIT_MAX = 100;
+export const PRICE_DECIMAL_PLACES = 2;
+export const PASSWORD_MIN_LENGTH = 8;
+export const PASSWORD_MAX_LENGTH = 128;
+export const PHONE_MAX_LENGTH = 20;

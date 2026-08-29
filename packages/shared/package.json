@@ -1,0 +1,25 @@
+{
+  "name": "@repo/shared",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./constants/*": "./src/constants/*.ts",
+    "./hooks/*": "./src/hooks/*.ts",
+    "./utilities/*": "./src/utilities/*.ts"
+  },
+  "scripts": {
+    "biome:check": "biome check --fix --unsafe .",
+    "typescript:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@repo/i18n": "workspace:*",
+    "temporal-polyfill": "catalog:"
+  },
+  "devDependencies": {
+    "@repo/biome-config": "workspace:*",
+    "@types/react": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:"
+  }
+}
