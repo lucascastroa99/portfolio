@@ -1,0 +1,6 @@
+{
+  "extends": ["@repo/biome-config/base.json"],
+  "files": {
+    "includes": ["!!**/src/paraglide"]
+  }
+}

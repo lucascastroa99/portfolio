@@ -1,0 +1,24 @@
+{
+  "name": "@repo/i18n",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./messages": "./src/paraglide/messages.js",
+    "./runtime": "./src/paraglide/runtime.js",
+    "./server": "./src/paraglide/server.js"
+  },
+  "scripts": {
+    "compile": "paraglide-js compile --project ./src/project.inlang --outdir ./src/paraglide --emit-ts-declarations",
+    "watch": "paraglide-js compile --project ./src/project.inlang --outdir ./src/paraglide --emit-ts-declarations --watch",
+    "biome:check": "biome check --fix --unsafe ."
+  },
+  "devDependencies": {
+    "@inlang/paraglide-js": "catalog:",
+    "@repo/biome-config": "workspace:*",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  }
+}
