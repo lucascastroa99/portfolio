@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "deploy:web": "pnpm --filter=web build && wrangler deploy",
+    "biome:check": "turbo run biome:check",
+    "typescript:check": "turbo run typescript:check"
+  },
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:",
+    "wrangler": "catalog:"
+  }
+}

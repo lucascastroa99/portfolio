@@ -1,0 +1,30 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.watcherExclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "search.exclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "always",
+    "source.organizeImports.biome": "always",
+    "source.organizeImports": "never",
+  },
+  "js/ts.preferences.includePackageJsonAutoImports": "auto",
+  "js/ts.preferences.autoImportFileExcludePatterns": [
+    "@radix-ui/*"
+  ],
+}

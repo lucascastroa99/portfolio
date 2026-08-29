@@ -1,0 +1,53 @@
+# DEPENDENCIES
+node_modules
+.pnp
+.pnp.js
+
+# ENVIRONMENT VARIABLES
+.env*
+!.env.example
+
+# BUILD OUTPUTS
+dist
+dist-ssr
+build
+out/
+.next/
+
+# TESTING
+coverage
+
+# MONOREPO TOOLING
+.turbo
+.vercel
+.wrangler
+
+# FRAMEWORK CACHES
+.tanstack
+.nitro
+.vinxi
+.output
+__unconfig*
+
+# LOCK FILES
+bun.lockb
+
+# DEBUG & LOGS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# EDITOR & OS
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MISC
+*.pem
+*.local

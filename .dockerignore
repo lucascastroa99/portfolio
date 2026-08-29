@@ -1,0 +1,49 @@
+# DEPENDENCIES
+node_modules
+.pnp
+.pnp.js
+
+# ENVIRONMENT VARIABLES
+.env
+.env.local
+.env.development
+
+# BUILD OUTPUTS
+dist
+dist-ssr
+build
+out/
+.next/
+
+# TESTING
+coverage
+
+# MONOREPO TOOLING
+.turbo
+.vercel
+.wrangler
+openspec
+.opencode
+
+# FRAMEWORK CACHES
+.tanstack
+.nitro
+.vinxi
+.output
+__unconfig*
+
+# LOCK FILES
+bun.lockb
+
+# DEBUG & LOGS
+*.log
+
+# EDITOR & OS
+.vscode
+.idea
+.DS_Store
+
+# MISC
+*.pem
+*.local
+.git

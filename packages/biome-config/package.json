@@ -1,0 +1,10 @@
+{
+	"name": "@repo/biome-config",
+	"private": true,
+	"exports": {
+		"./base.json": "./base.json"
+	},
+	"scripts": {
+		"biome:check": "biome check --fix --unsafe ."
+	}
+}
