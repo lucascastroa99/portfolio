@@ -133,8 +133,8 @@ catalogs:
       specifier: ^4.131.0
       version: 4.131.0
     zod:
-      specifier: ^4.5.4
-      version: 4.5.4
+      specifier: ^4.6.2
+      version: 4.6.2
 
 overrides:
   '@types/react': ^19.2.18
@@ -259,7 +259,7 @@ importers:
     dependencies:
       zod:
         specifier: 'catalog:'
-        version: 4.5.4
+        version: 4.6.2
     devDependencies:
       '@repo/biome-config':
         specifier: workspace:*
@@ -379,7 +379,7 @@ importers:
         version: 1.1.2(@types/react-dom@19.3.0(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.3.0(react@19.2.8))(react@19.2.8)
       zod:
         specifier: 'catalog:'
-        version: 4.5.4
+        version: 4.6.2
     devDependencies:
       '@repo/biome-config':
         specifier: workspace:*
@@ -3562,6 +3562,9 @@ packages:
   zod@4.5.4:
     resolution: {integrity: sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==}
 
+  zod@4.6.2:
+    resolution: {integrity: sha512-lh5RCAGFa1Cm2hjtNwLQhSs/AsqdWnTQaBER9fEwN/88pSh7KOtJavtBx/0VlkN/uFd61SwYmljLMDAsHlvzBQ==}
+
 snapshots:
 
   '@babel/code-frame@7.29.7':
@@ -6485,3 +6488,5 @@ snapshots:
       youch-core: 0.3.3
 
   zod@4.5.4: {}
+
+  zod@4.6.2: {}
