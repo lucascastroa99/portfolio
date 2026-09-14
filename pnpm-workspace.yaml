@@ -47,7 +47,7 @@ catalog:
   vaul: ^1.1.2
   vite: ^8.2.2
   wrangler: ^4.131.0
-  zod: ^4.5.4
+  zod: ^4.6.2
 allowBuilds:
   cpu-features: true
   esbuild: true
