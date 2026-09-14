@@ -9,7 +9,7 @@ catalog:
   "@bprogress/react": ^1.2.7
   "@cloudflare/vite-plugin": ^1.54.7
   "@iconify-icon/react": ^3.0.3
-  "@inlang/paraglide-js": ^2.25.0
+  "@inlang/paraglide-js": ^2.25.1
   "@t3-oss/env-core": ^0.13.11
   "@tailwindcss/typography": ^0.5.20
   "@tailwindcss/vite": ^4.3.3
