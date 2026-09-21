@@ -19,8 +19,8 @@ catalogs:
       specifier: ^1.55.0
       version: 1.55.0
     '@iconify-icon/react':
-      specifier: ^3.0.3
-      version: 3.0.3
+      specifier: ^3.0.4
+      version: 3.0.4
     '@inlang/paraglide-js':
       specifier: ^2.25.4
       version: 2.25.4
@@ -160,7 +160,7 @@ importers:
     dependencies:
       '@iconify-icon/react':
         specifier: 'catalog:'
-        version: 3.0.3(react@19.2.8)
+        version: 3.0.4(react@19.2.8)
       '@repo/assets':
         specifier: workspace:*
         version: link:../../packages/assets
@@ -313,7 +313,7 @@ importers:
         version: 1.2.7(react-dom@19.3.0(react@19.2.8))(react@19.2.8)
       '@iconify-icon/react':
         specifier: 'catalog:'
-        version: 3.0.3(react@19.2.8)
+        version: 3.0.4(react@19.2.8)
       '@repo/assets':
         specifier: workspace:*
         version: link:../assets
@@ -901,8 +901,8 @@ packages:
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
 
-  '@iconify-icon/react@3.0.3':
-    resolution: {integrity: sha512-i4N/J0+UZWQu5Ty9Z+SxsNsuNdY7w2TnSuI65Qw9UrWudvnRodKfTUMvyg0hvxSZolqAE1YJVZu1HqgfpgPX9w==}
+  '@iconify-icon/react@3.0.4':
+    resolution: {integrity: sha512-0xhOSFqAOT3grFA6XpTsQcoapIEOfaFaCHjWaEsJITwLC7Hj/oL/2A118wpZNmEVKCtwwHf1hw2C+wgKujv4Dg==}
     peerDependencies:
       react: '>=18.0.0'
 
@@ -3079,8 +3079,8 @@ packages:
       crossws:
         optional: true
 
-  iconify-icon@3.0.2:
-    resolution: {integrity: sha512-DYPAumiUeUeT/GHT8x2wrAVKn1FqZJqFH0Y5pBefapWRreV1BBvqBVMb0020YQ2njmbR59r/IathL2d2OrDrxA==}
+  iconify-icon@3.0.3:
+    resolution: {integrity: sha512-n4ZIChz3N75KqFSWLt9hHGzbrqGQeeoFxCE+nND4WFFa88x8AW8GvmnVZaVNYErhhiZkxJhBfVKMIGrF1wt3hg==}
 
   immer@11.1.18:
     resolution: {integrity: sha512-EQyQtLiYW029lyoczMl/Hh4Xu7cDecSc58JRYpHyL4tIAu3eqd1yJzQX04d2BZHDkzFFvm6qJEJWOtfDSWAXbQ==}
@@ -4249,9 +4249,9 @@ snapshots:
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@iconify-icon/react@3.0.3(react@19.2.8)':
+  '@iconify-icon/react@3.0.4(react@19.2.8)':
     dependencies:
-      iconify-icon: 3.0.2
+      iconify-icon: 3.0.3
       react: 19.2.8
 
   '@iconify/types@2.0.0': {}
@@ -6253,7 +6253,7 @@ snapshots:
       rou3: 0.8.1
       srvx: 0.11.22
 
-  iconify-icon@3.0.2:
+  iconify-icon@3.0.3:
     dependencies:
       '@iconify/types': 2.0.0
 
