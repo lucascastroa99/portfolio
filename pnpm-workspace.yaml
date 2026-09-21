@@ -7,7 +7,7 @@ catalog:
   "@base-ui/react": ^1.8.0
   "@biomejs/biome": ^2.5.13
   "@bprogress/react": ^1.2.7
-  "@cloudflare/vite-plugin": ^1.54.7
+  "@cloudflare/vite-plugin": ^1.55.0
   "@iconify-icon/react": ^3.0.3
   "@inlang/paraglide-js": ^2.25.1
   "@t3-oss/env-core": ^0.13.11
